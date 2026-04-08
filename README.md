@@ -1,4 +1,4 @@
-# Byte Melody - Desafios de Desenvolvimento
+# Byte Melody - A melodia que encanta. 
 
 Nesta atividade, sua equipe deverá desenvolver um aplicativo simples e funcional que use sons e interatividade para ajudar uma pessoa em uma situação do dia a dia.
 
@@ -86,6 +86,7 @@ Uma professora de yoga deseja usar sons relaxantes em suas aulas, como água cor
 Não altere tudo de uma vez! Implemente uma tarefa, teste, e depois passe para a próxima. Use este checklist para garantir que cada funcionalidade esteja completa e funcionando corretamente.
 
 ### Funcionalidade
+
 - [ ] Tarefa 1: Background dinâmico funciona corretamente
 - [ ] Tarefa 2: Painel fixo persiste durante navegação
 - [ ] Código comentado e bem organizado
@@ -98,6 +99,12 @@ Não altere tudo de uma vez! Implemente uma tarefa, teste, e depois passe para a
 
 --- 
 
+## Referências e Materiais. 
+
+- Bibliotecas de Sons e Efeitos: https://pixabay.com/sound-effects/
+
+- IA para geração de Sons: https://suno.com/
+
 ## Como Começar
 
 1. Clone/baixe o projeto
@@ -109,12 +116,3 @@ Não altere tudo de uma vez! Implemente uma tarefa, teste, e depois passe para a
 7. Teste continuamente no navegador
 8. Faça commit de suas mudanças regularmente
 
----
-
-## Submissão
-
-- Envie o link do repositório (GitHub) ou arquivo compactado com o projeto
-- Inclua um arquivo `README.md` explicando as melhorias implementadas
-- Forneça prints/capturas de tela das novas funcionalidades
-
-**Bom desenvolvimento! **
