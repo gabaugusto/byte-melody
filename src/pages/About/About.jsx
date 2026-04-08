@@ -1,5 +1,5 @@
-// Sobre — página de informações do SoundLab
-// Esta página apresenta informações sobre o aplicativo SoundLab
+// Sobre — página de informações do Byte Melody
+// Esta página apresenta informações sobre o aplicativo Byte Melody
 
 import AppHeader from '../../components/AppHeader/AppHeader'
 import './About.css'
@@ -8,7 +8,7 @@ function About({ onNavigate }) {
   return (
     <div className="about">
       <AppHeader 
-        title="SoundLab 🎵"
+        title="Byte Melody"
         subtitle="Sobre o aplicativo"
         onNavigate={onNavigate}
         currentPage="about"
@@ -16,10 +16,10 @@ function About({ onNavigate }) {
       
       <div className="about__container">
         <section className="about__section">
-          <h1 className="about__title">Sobre o SoundLab</h1>
+          <h1 className="about__title">Sobre o Byte Melody</h1>
           
           <p className="about__text">
-            O SoundLab é um aplicativo de sons relaxantes e produtivos, 
+            O Byte Melody é um aplicativo de sons relaxantes e produtivos, 
             desenvolvido para ajudá-lo a criar o ambiente perfeito para 
             concentração, estudo, trabalho ou descanso.
           </p>
@@ -74,7 +74,7 @@ function About({ onNavigate }) {
           <h2 className="about__subtitle">Tecnologias</h2>
           
           <p className="about__text">
-            SoundLab foi desenvolvido com:
+            Byte Melody foi desenvolvido com:
           </p>
           
           <ul className="about__tech-list">
@@ -90,7 +90,7 @@ function About({ onNavigate }) {
           
           <p className="about__text">
             Tem dúvidas ou sugestões? Adoraríamos ouvir sua opinião para melhorar 
-            continuamente o SoundLab.
+            continuamente o Byte Melody.
           </p>
           
           <p className="about__text">

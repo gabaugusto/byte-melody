@@ -1,4 +1,4 @@
-// Home — página principal do SoundLab
+// Home — página principal do Byte Melody
 // Esta página é responsável por:
 //   1. Gerenciar os estados (categoria ativa, tempo selecionado, tempo restante, toast)
 //   2. Compor todos os componentes juntos
@@ -91,7 +91,7 @@ function Home({ onNavigate }) {
     <div className="home">
       {/* 1. Cabeçalho com props de conteúdo */}
       <AppHeader
-        title="SoundLab 🎵"
+        title="Byte Melody 🎵"
         subtitle="Experiências sonoras interativas"
         onNavigate={onNavigate}
         currentPage="home"
