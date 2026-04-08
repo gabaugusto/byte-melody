@@ -1,0 +1,50 @@
+.sound-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--cor-card);
+  border-radius: 12px;
+  border: 1px solid var(--cor-borda);
+  transition: border-color 0.2s;
+}
+
+/* Quando o som está tocando, um destaque na borda indica o estado */
+.sound-card--playing {
+  border-color: var(--cor-destaque);
+}
+
+.sound-card__emoji {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.sound-card__info {
+  flex: 1;
+}
+
+.sound-card__name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--cor-texto);
+  margin: 0 0 0.2rem;
+}
+
+.sound-card__category {
+  font-size: 0.8rem;
+  color: var(--cor-texto-secundario);
+  text-transform: capitalize;
+}
+
+.sound-card__status {
+  min-width: 60px;
+  text-align: center;
+}
+
+.sound-card__badge {
+  font-size: 0.75rem;
+  color: var(--cor-destaque);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}

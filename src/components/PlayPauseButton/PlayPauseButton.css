@@ -1,0 +1,26 @@
+.play-pause-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid var(--cor-destaque);
+  background: transparent;
+  color: var(--cor-destaque);
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, color 0.2s;
+  flex-shrink: 0;
+}
+
+/* Quando está tocando, inverte as cores para indicar o estado ativo */
+.play-pause-btn--playing {
+  background: var(--cor-destaque);
+  color: #fff;
+}
+
+.play-pause-btn:hover {
+  background: var(--cor-destaque);
+  color: #fff;
+}

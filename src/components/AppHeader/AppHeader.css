@@ -1,0 +1,53 @@
+.app-header {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+}
+
+.app-header__top {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.app-header__title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--cor-texto);
+  margin: 0;
+}
+
+.app-header__subtitle {
+  font-size: 1rem;
+  color: var(--cor-texto-secundario);
+  margin: 0;
+}
+
+.app-header__nav {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.app-header__nav-btn {
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--cor-primaria, #7c3aed);
+  background: transparent;
+  color: var(--cor-primaria, #7c3aed);
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.app-header__nav-btn:hover {
+  background: var(--cor-primaria, #7c3aed);
+  color: white;
+}
+
+.app-header__nav-btn--active {
+  background: var(--cor-primaria, #7c3aed);
+  color: white;
+}
+

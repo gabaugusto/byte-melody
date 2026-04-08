@@ -1,0 +1,32 @@
+.volume-slider {
+  padding: 1rem;
+  background: var(--cor-card);
+  border-radius: 12px;
+  border: 1px solid var(--cor-borda);
+}
+
+.volume-slider__label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--cor-texto-secundario);
+  margin-bottom: 0.5rem;
+}
+
+.volume-slider__controles {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.volume-slider__range {
+  flex: 1;
+  accent-color: var(--cor-destaque);
+  cursor: pointer;
+}
+
+.volume-slider__valor {
+  font-size: 0.9rem;
+  color: var(--cor-texto);
+  min-width: 38px;
+  text-align: right;
+}

@@ -1,0 +1,42 @@
+.timer-selector {
+  padding: 1rem;
+  background: var(--cor-card);
+  border-radius: 12px;
+  border: 1px solid var(--cor-borda);
+}
+
+.timer-selector__titulo {
+  font-size: 0.9rem;
+  color: var(--cor-texto-secundario);
+  margin: 0 0 0.75rem;
+  font-weight: 500;
+}
+
+.timer-selector__opcoes {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.timer-btn {
+  padding: 0.4rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid var(--cor-borda);
+  background: transparent;
+  color: var(--cor-texto-secundario);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+/* Botão selecionado recebe destaque */
+.timer-btn--selected {
+  background: var(--cor-destaque);
+  color: #fff;
+  border-color: var(--cor-destaque);
+}
+
+.timer-btn:hover:not(.timer-btn--selected) {
+  border-color: var(--cor-destaque);
+  color: var(--cor-texto);
+}
