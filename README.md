@@ -1,4 +1,4 @@
-# Byte Melody - A melodia que encanta. 
+# Byte Melody: A Interface que Encanta
 
 Nesta atividade, sua equipe deverá desenvolver um aplicativo simples e funcional que use sons e interatividade para ajudar uma pessoa em uma situação do dia a dia.
 
@@ -115,4 +115,3 @@ Não altere tudo de uma vez! Implemente uma tarefa, teste, e depois passe para a
 6. Implemente as melhorias uma por uma
 7. Teste continuamente no navegador
 8. Faça commit de suas mudanças regularmente
-
