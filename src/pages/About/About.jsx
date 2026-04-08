@@ -9,7 +9,7 @@ function About({ onNavigate }) {
     <div className="about">
       <AppHeader 
         title="Byte Melody"
-        subtitle="Sobre o aplicativo"
+        subtitle="Sobre a aplicação"
         onNavigate={onNavigate}
         currentPage="about"
       />

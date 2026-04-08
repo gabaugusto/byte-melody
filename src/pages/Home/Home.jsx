@@ -71,7 +71,7 @@ function Home({ onNavigate }) {
     mostrarToast(`⏱ Timer configurado para ${minutos} min`)
   }
 
-  // --- Efeito do countdown ---
+  // --- Efeito do contagem regressiva ---
   // Este useEffect roda novamente sempre que isPlaying ou timeLeft mudam.
   // Usamos setTimeout para decrementar o contador um segundo por vez.
   useEffect(() => {
@@ -91,7 +91,7 @@ function Home({ onNavigate }) {
     <div className="home">
       {/* 1. Cabeçalho com props de conteúdo */}
       <AppHeader
-        title="Byte Melody 🎵"
+        title="Byte Melody"
         subtitle="Experiências sonoras interativas"
         onNavigate={onNavigate}
         currentPage="home"
